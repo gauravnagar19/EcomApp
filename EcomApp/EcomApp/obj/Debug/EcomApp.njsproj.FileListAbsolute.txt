@@ -1,0 +1,1 @@
+c:\users\gaura\documents\visual studio 2015\Projects\EcomApp\EcomApp\bin\Microsoft.NodejsTools.WebRole.dll

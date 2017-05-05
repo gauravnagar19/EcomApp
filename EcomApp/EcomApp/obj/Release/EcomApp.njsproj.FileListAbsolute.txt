@@ -1,0 +1,3 @@
+c:\users\gaura\documents\visual studio 2015\Projects\EcomApp\EcomApp\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\gaura\OneDrive - University of South Florida\Gaurav\USF\Courses\Big Data\Final Project\Projects\EcomApp\EcomApp\obj\Release\EcomApp.njsprojResolveAssemblyReference.cache
+C:\Users\gaura\OneDrive - University of South Florida\Gaurav\USF\Courses\Big Data\Final Project\Projects\EcomApp\EcomApp\bin\Microsoft.NodejsTools.WebRole.dll
