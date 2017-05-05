@@ -1,0 +1,59 @@
+﻿body {
+  padding: 200px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-image: url(/images/background.jpg); */
+}
+a {
+  color: #0069ff;
+}
+.thumbnail img {
+    max-height: 150px;
+}
+.logo img {
+    max-height: 100px;
+    max-width: 150px;
+}
+.img {
+    max-height: 100px;
+    max-width: 150px;
+}
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+p {
+    line-height: 1.5em;
+    height: 4.5em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
+}
+h3 {
+    line-height: 1.4em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
+}
+.singleproduct {
+    width: 28%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 1%;
+    white-space: normal;
+}
+/*
+.products {
+  display: flex;
+}
+.products > div {
+  flex: 1;
+}
+*/
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .single-div {
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+}

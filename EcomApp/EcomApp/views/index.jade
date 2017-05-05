@@ -1,0 +1,33 @@
+﻿extends layout
+
+block content
+    h3 Top Products
+    div(class="products")
+    - each topproducts in topproductlist
+        div(class="singleproduct")
+            div(class="thumbnail")
+                img(src="#{topproducts.IMAGE_URL}", alt="...", class="img-responsive")
+                div(class="caption")
+                    h3 #{topproducts.TITLE}
+                    p(align="justify",class="description") #{topproducts.FEATURE_BULLETS}
+                    div(class="clearfix")
+                        div(class="price") #{topproducts.SALE_PRICE}
+                        a(href="#",class="btn btn-success pull-right",role="button") Add to cart
+    h3 All products
+    div(class="products")
+    - each allproducts in allproductlist
+        div(class="singleproduct")
+            div(class="thumbnail")
+                img(src="#{allproducts.IMAGE_URL}", alt="...", class="img-responsive")
+                div(class="caption")
+                    h3 #{allproducts.TITLE}
+                    p(align="justify",class="description") #{allproducts.FEATURE_BULLETS}
+                    div(class="clearfix")
+                        div(class="price") #{allproducts.SALE_PRICE}
+                        a(href="#",class="btn btn-success pull-right",role="button") Add to cart
+     #footer
+        div Copyright© Future E-comm #{+new Date().getFullYear()}  
+        a(href='/#') About 
+        | |  
+        a(href='/#') Contact Us
+    footer
